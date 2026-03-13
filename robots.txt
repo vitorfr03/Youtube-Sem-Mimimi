@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://youtubesemmimimi.com.br/sitemap.xml
