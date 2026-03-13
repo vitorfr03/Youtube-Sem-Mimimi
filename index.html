@@ -113,6 +113,26 @@ transition: all .3s;
 transform: scale(1.03);
 }
 
+.hero-image{
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-6px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 </style>
 
 </head>
@@ -159,12 +179,8 @@ px-4 py-2 rounded-full mb-6">
   Tudo o que você precisa para criar canais no YouTube, crescer audiência e monetizar seus vídeos.
 </h2>
 
-<a href="#comprar">
-
-<button class="btn-cta font-bold px-10 py-4 rounded-lg text-lg shadow-lg mt-6">
+<a href="#comprar" class="btn-cta font-bold px-10 py-4 rounded-lg text-lg shadow-lg mt-6 inline-block">
 QUERO COMEÇAR AGORA
-</button>
-
 </a>
 
 </div>
